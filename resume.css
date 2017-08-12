@@ -98,16 +98,19 @@ color: #113848;
   font-size: 13px;
   font-style: normal;
   font-family: calibri;
+  color: #5C6D7E;
 }
 .phone2{
   font-size: 13px;
   font-style: normal;
-font-family: 'Princess Sofia',fantasy;
+  font-family: 'Princess Sofia',fantasy;
+  color: #5C6D7E;
 }
 .email1{
   font-size: 14px;
   font-style: normal;
   font-family: 'Fresca',normal;
+  color: #5C6D7E;
 }
 .qual,.exp1{
   font-size: 15px;
@@ -121,6 +124,7 @@ font-family: 'Princess Sofia',fantasy;
   font-family: 'Fresca',normal;
   text-align: center;
   margin-left: 21px;
+  color: #5C6D7E;
 }
 ul{
   font-size: 15px;
