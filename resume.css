@@ -1,7 +1,6 @@
 body{
 background-color: #525659;
 background-attachment:fixed;
-margin-bottom: auto;
 background-size: cover;
 }
 .whole-panel{
@@ -21,7 +20,7 @@ background-size: cover;
   height: 884px;
 }
 .content{
-  background-color: #0B2630;
+  background-color: #113848;
   height: 284px;
 }
 hr{
@@ -34,7 +33,8 @@ hr{
   margin-left: 117px;
 }
 .part1,.part2,.part3,.part4,.part5{
-  margin-left: 30px;
+  margin-left: 40px;
+  margin-top: 30px;
 }
 h1{
   font-size: 55px;
@@ -49,9 +49,13 @@ h1{
 
     margin-left: 65px;
     margin-top: 0px;
+    padding-top: 30;
 }
 h3{
   color: #D1B194;
+  font-family: 'Source Code Pro', monospace;
+  font-weight:400;
+  font-size: 16px;
 }
 #c2{
   margin-left: 63px;
@@ -63,4 +67,64 @@ h3{
     margin-bottom: -18px;
     margin-left: 69px;
     color: #FFFEF4;
+}
+span{
+  background-color: #113848;
+  font-size: 8px;
+  color: #113848;
+  border:thin solid;
+  border-color: #FFFEF4;
+}
+.l1{
+font-size: 13px;
+color: #113848;
+}
+.o{
+  background-color:#D1B193;
+  color:#D1B193;
+}
+#c1,#c2{
+  font-weight:lighter;
+  font-size: 15px;
+  font-family: 'Cormorant Infant', monospace;
+}
+.add,.phone,.email{
+font-family: 'Kanit', sans-serif;
+font-weight: normal;
+font-size: 13px;
+color: #113848;
+}
+.add1{
+  font-size: 13px;
+  font-style: normal;
+  font-family: calibri;
+}
+.phone2{
+  font-size: 13px;
+  font-style: normal;
+font-family: 'Princess Sofia',fantasy;
+}
+.email1{
+  font-size: 14px;
+  font-style: normal;
+  font-family: 'Fresca',normal;
+}
+.qual,.exp1{
+  font-size: 15px;
+  font-style: bold;
+  font-family: 'Fresca',normal;
+  color: #113848;
+}
+.qual1,.exp2{
+  font-size: 14px;
+  font-style: normal;
+  font-family: 'Fresca',normal;
+  text-align: center;
+  margin-left: 21px;
+}
+ul{
+  font-size: 15px;
+  font-style: bold;
+  font-family: 'Fresca',normal;
+  color: #113848;
 }
