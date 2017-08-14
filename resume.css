@@ -6,9 +6,9 @@ background-size: cover;
 .whole-panel{
   height: 480pt;
   width: 600pt;
-  border-radius: 0px;
+  border-radius: 2px;
   margin: auto;
-  margin-top: 90;
+  margin-top: 64px;
 }
 .panel1{
   float: left;
@@ -41,7 +41,6 @@ h1{
   color: #FFFFFF;
   margin-bottom: 10;
   margin-top: 0;
-  margin-left: 91px;
   margin-top: -10px;
   margin-bottom: -19px;`
 }
@@ -104,21 +103,21 @@ color: #113848;
   font-size: 13px;
   font-style: normal;
   font-family: 'Princess Sofia',fantasy;
-  color: #5C6D7E;
+  color: #ff;
 }
-.email1{
+.email1 {
   font-size: 14px;
   font-style: normal;
   font-family: 'Fresca',normal;
   color: #5C6D7E;
 }
-.qual,.exp1{
+.qual,.exp1 {
   font-size: 15px;
   font-style: bold;
   font-family: 'Fresca',normal;
   color: #113848;
 }
-.qual1,.exp2{
+.qual1,.exp2 {
   font-size: 14px;
   font-style: normal;
   font-family: 'Fresca',normal;
@@ -126,9 +125,18 @@ color: #113848;
   margin-left: 21px;
   color: #5C6D7E;
 }
-ul{
+ul {
   font-size: 15px;
   font-style: bold;
   font-family: 'Fresca',normal;
   color: #113848;
+}
+#h10 {
+  font-size: 19px;
+  font-weight: 400;
+  margin: 8px 0 32px;
+  color: #999;
+  text-align: center;
+  word-wrap: break-word;
+      font-family: 'q_serif',Georgia,Times,"Times New Roman",serif;
 }
