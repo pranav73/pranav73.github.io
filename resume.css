@@ -141,3 +141,7 @@ ul {
   word-wrap: break-word;
   font-family: 'q_serif',Georgia,Times,"Times New Roman",serif;
 }
+#gallery{
+  color:yellow;
+  padding-left: 100;
+}

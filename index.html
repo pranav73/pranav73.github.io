@@ -3,9 +3,19 @@
   <title>RESUME</title>
   <link rel="icon" type="image/png" href="images/icon.png">
   <link rel="stylesheet" type="text/css" href="resume.css">
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Crimson+Text|Fresca|Kanit|Mountains+of+Christmas|Princess+Sofia|Source+Code+Pro" rel="stylesheet"></head>
-</head>
-<body>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Infant|Crimson+Text|Fresca|Kanit|Mountains+of+Christmas|Princess+Sofia|Source+Code+Pro" rel="stylesheet">
+
+  <script src="jquery-3.2.1.js" />
+  <script type="text/javascript" src="coin-slider.js"></script>
+  <script type="text/javascript" src="coin-slider.min.js"></script>
+  <link rel="stylesheet" href="coin-slider-styles.css" type="text/css" />
+  <script>
+  $(document).ready(function(){
+    $("#coinslider").coinslider({height:285,width:300});
+  });
+  </script>
+  </head>
+  <body>
   <div class="whole-panel">
   <div class="panel1">
     <div class="image1">
@@ -15,15 +25,21 @@
       <h1>Aeer</h1><br>
       <hr id="h1">
       <h4 id="c1">COLLEGE &nbsp; STUDENT</h4>
-      <h4 id="c2">MUMBAI  &nbsp;UNIVERSITY</h4>
-    </div>
-    </div>
+      <h4 id="c2">MUMBAI  &nbsp;UNIVERSITY</h4><br><br><br><br>
+    <div><a id="gallery" href="photos.html">Photos Gallery</a></div>
   </div>
+  <!-- <div id="coinslider">
+      <img src='bg.png' height="50" width="100">
+      <img src='cv1.png' height="50" width="100">
+      <img src='p1.jpg' height="50" width="100">
+      <img src="pr1.jpg" height="50" width="100">
+      <img src="images.jpg">
+  </div> -->
+  </div>                        
+</div>
     <div class="panel2">
     <div class="part1">
       <h3>PROFILE</h3>
-
-
       <hr><br>
       <label class="add">ADDRESS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
       <label class="add1">At/Post : Sawantwadi,Saideep Darshan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Appt.,Khaskilwada,Sawantwadi-416510,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dist-Sindhudurg.</label><br><br><br>

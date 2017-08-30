@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="jquery.gallerie.js"></script>
+<link rel="stylesheet" type="text/css" href="gallerie.css"/>
+<link rel="stylesheet" type="text/css" href="gallerie-effects.css"/>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#gallery').gallerie();
+});
+
+</script>
+
+<style>
+	body {
+		background-color: black;
+	}
+
+	#gallery {
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
+</head>
+
+<body>
+<div id="gallery">
+<a href="images/large.jpg"><img src="images/large.jpg"/></a>
+<a href="images/cup.jpg"><img src="images/cup.jpg"/></a>
+<a href="images/scene.jpg"><img src="images/scene.jpg"/></a>
+<a href="images/home.jpg"><img src="images/home.jpg"/></a>
+</div>
+</body>
+</html>
